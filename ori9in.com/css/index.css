@@ -1,0 +1,219 @@
+
+
+.content {
+    background: url("../img/index-bg.jpg") no-repeat center;
+    height: 834px;
+    padding-top: 134px;
+}
+.content-head {
+    height: 700px;
+}
+.content-top, .content-center-, .content-bottom {
+    width: 1200px;
+    margin: 100px auto 100px;
+}
+.content-bottom- {
+    width: 1200px;
+    height: 50px;
+    margin: 100px auto 0px;
+}
+.content-bottom- b {
+    font-size: 14px;
+    color: rgba(188,188,188,1);
+}
+.content-top {
+    height: 180px;
+}
+.content-top-div {
+    float: left;
+    height: 180px;
+}
+.content-top-left{
+    padding-top: 60px;
+    width: 10%;
+}
+.content-top-center{
+    width: 80%;
+}
+.content-top-right{
+    padding-top: 80px;
+    width: 10%;
+}
+.content-center {
+    background: rgba(247,247,247,1);
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+.content-center- div{
+    width: 50%;
+    text-align: left;
+    float: left;
+    height: 54px;
+    margin-bottom: 50px;
+}
+.content-center-content {
+    width: 1200px;
+    margin: 100px auto 0;
+}
+.content-center-content li {
+    float: left;
+    width: 390px;
+    height: 260px;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+    position: relative;
+}
+.content-center-content li:hover{
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.3);
+}
+.content-center-content li:hover div{
+    border-bottom: none;
+    position: absolute;
+    bottom: 0px;
+}
+.content-center-content li:hover section {
+    height: 180px;
+    background-size:90%;
+}
+.con-top {
+    height: 260px;
+    width: 390px;
+}
+.con {
+    height: 80px;
+    width: 390px;
+    position: absolute;
+    background: rgba(255,255,255,1);
+    bottom: -80px;
+
+}
+.bg-1 {
+    background: url("../img/index-bg-1.jpg") center;
+    background-size:100%;
+}
+.bg-2 {
+    background: url("../img/index-bg-2.jpg") center;
+    background-size:100%
+}
+.bg-3 {
+    background: url("../img/index-bg-3.jpg") center;
+    background-size:100%
+}
+.bg-4 {
+    background: url("../img/index-bg-4.jpg") center;
+    background-size:100%
+}
+.bg-5 {
+    background: url("../img/index-bg-5.gif") center;
+    background-size:100%
+}
+.bg-6 {
+    background: url("../img/index-bg-6.jpg") center;
+    background-size:100%
+}
+.con div {
+    width: 100%;
+    height: 100%;
+    padding: 15px 0 5px 30px;
+}
+.con span,.con small {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 30px;
+}
+.con span {
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+.con small {
+    color: rgba(150,150,150,1);
+}
+.con p {
+    width: 35px;
+    height: 35px;
+    margin: 5px 11.5px;
+    background: rgba(42,169,242,1);
+    border-radius: 100px;
+    float: right;
+}
+.con p i {
+    width: 37px;
+    height: 37px;
+    display: block;
+    background: url("../img/index-bt.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.content-bottom {
+    background: rgba(255,255,255,1);
+    position: absolute;
+    top: 2058px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto 0;
+}
+.content-bottom- div{
+    width: 50%;
+    text-align: left;
+    float: left;
+    height: 54px;
+}
+.content-bottom-content {
+    background: url("../img/index-1.png") right top no-repeat;
+    font-size: 14px;
+    color: rgba(102,102,102,1);
+    line-height: 180%;
+    height: 200px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-right: 530px;
+}
+.bottom {
+    color: #ffffff;
+    position: absolute;
+    background: rgba(81,166,253,1);
+    left: 0px;
+    top: 2608px;
+    height: 500px;
+    right: 0px;
+    margin: 50px auto 0;
+}
+.bottom b {
+    color: #ffffff;
+}
+.bottom-team {
+    margin: 0 auto;
+    width: 1200px;
+    height: 450px;
+}
+.bottom-team div img,.bottom-team div{
+    height: 400px;
+}
+.bottom-bottom {
+    margin: 0 auto;
+    width: 1200px;
+    height: 136px;
+}
+
+
+.bottom-bottom-team {
+    border-top: 1px solid rgba(238,238,238,1);
+    margin: 0 auto;
+    height: 130px;
+    position: absolute;
+    top: 3258px;
+    left: 0px;
+    right: 0px;
+    padding-top: 50px;
+}
+.bottom-bottom-team- {
+    width: 1200px;
+    margin: 0 auto;
+}
+.bottom-bottom-team-- div img,.bottom-bottom-team-- div{
+    height: 130px;
+}

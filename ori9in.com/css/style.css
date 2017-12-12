@@ -1,0 +1,213 @@
+*{
+    transition:all 0.60s cubic-bezier(.4,.6,.4,1);
+    animation:all 0.90s cubic-bezier(.4,.6,.4,1);
+    /* Firefox 4 */
+    -moz-transition:all 0.60s cubic-bezier(.4,.6,.4,1);
+    /* Safari ºÍ Chrome */
+    -webkit-transition:all 0.60s cubic-bezier(.4,.6,.4,1);
+    /* Opera */
+    -o-transition:all 0.60s cubic-bezier(.4,.6,.4,1);
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei","Î¢ÈíÑÅºÚ",arial,simsun,"ËÎÌå";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+div, ul, li, img, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+ul, ol ,a{
+    list-style: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.common-header {
+    color: #fff;
+    background: rgba(0,169,234,1);
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    height: 120px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    min-width: 1200px;
+    z-index: 10;
+}
+.logo-href {
+    background: url("../img/logo-2.png") no-repeat  left center;
+    background-size: 30% ;
+    display: block;
+    width: 215px;
+    height: 120px;
+    position: absolute;
+}
+.clearfix::before, .clearfix::after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+}
+.clearfix  a {
+    color: rgba(255,255,255,1);
+}
+
+.clearfix  li {
+    color: rgba(255,255,255,1);
+    height: 120px;
+    line-height: 120px;
+    float: right;
+    padding: 0 40px;
+}
+.clearfix.avtive  a {
+    color: rgba(255,255,255,1);
+}
+/****************************************************************/
+.common-header.on{
+    color: #fff;
+    background: rgba(57,66,79,.90);
+    font-size: 14px;
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    min-width: 1200px;
+    z-index: 10;
+}
+.clearfix.on a {
+    color: rgba(255,255,255,1);
+}
+.clearfix.on small {
+    color: rgba(255,255,255,1);
+}
+.clearfix.on ul{
+    height: 80px;
+    line-height: 80px;
+}
+.clearfix.on li {
+    color: rgba(255,255,255,1);
+    height: 80px;
+    line-height: 80px;
+    float: right;
+    padding: 0 40px;
+}
+.logo-href.on {
+    background: url("../img/logo-1.png") no-repeat  left center;
+    background-size: 30% ;
+    display: block;
+    width: 215px;
+    height: 80px;
+    position: absolute;
+}
+.clearfix::before, .clearfix::after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+}
+
+
+
+.foot {
+    background: rgba(57,66,79,1);
+    height: 320px;
+    margin: 0 auto;
+    padding-top: 100px;
+    position: absolute;
+    top: 3439px;
+    left: 0px;
+    right: 0px;
+}
+.foot-bottom {
+    width: 1200px;
+    margin: 0 auto;
+    height: 220px;
+
+}
+.foot-bottom- {
+    color: rgba(128,139,155,1);
+    line-height: 180%;
+}
+.foot-bottom- div{
+    float: left;
+}
+.foot-bottom- p {
+    font-size: 14px;
+}
+.foot-bottom-left {
+    width: 250px;
+}
+.foot-bottom-center {
+    width: 250px;
+}
+.foot-bottom-center img {
+    padding-right: 5px;
+}
+.foot-bottom-right {
+    width: 700px;
+}
+.go-top {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    border: 1px solid rgba(188,188,188,1);
+    padding-left: 3px;
+    background: rgba(255,255,255,0.25);
+}
+.go-top:hover a{
+    filter:Invert(enabled=bEnabled);
+}
+
+.logo-more-0, .logo-more-1 {
+    float: right;
+    display: block;
+    width: 80px;
+    height: 25px;
+    background: url("../img/more-0.png") no-repeat center;
+}
+.logo-more-2 {
+    display: block;
+    width: 80px;
+    height: 25px;
+    background: url("../img/more-3-0.png") no-repeat center;
+}
+.logo-more-0:hover {
+    background: url("../img/more-1.png") no-repeat center;
+}
+.logo-more-1:hover{
+    background: url("../img/more-2.png") no-repeat center;
+}
+.logo-more-2:hover{
+    transition: linear 0.3s;
+    /* Firefox 4 */
+    -moz-transition:linear 0.3s;
+    /* Safari and Chrome */
+    -webkit-transition:linear 0.3s;
+    /* Opera */
+    -o-transition:linear 0.3s;
+    transform: rotate(180deg);
+    background: url("../img/more-3-1.png") no-repeat center;
+}
